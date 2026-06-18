@@ -147,3 +147,28 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.education-card {
+  text-align: center;
+}
+
+.edu-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  background: white;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.certificate-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px);
+  border-color: #d4a44f;
+}
